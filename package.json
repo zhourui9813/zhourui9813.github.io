@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "manual-deploy": "npm run build && cd dist && git init && git add -A && git commit -m \"Deploy\" && git push -f https://github.com/zhourui9813/zhourui9813.github.io.git HEAD:gh-pages && cd .."
   },
   "dependencies": {
     "react-dom": "^19.2.1",
