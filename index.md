@@ -25,3 +25,21 @@ in Submission
 [Rui Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+R), [Jingbin Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+J), [Junbin Xie](https://arxiv.org/search/cs?searchtype=author&query=Xie,+J), [Jianyu Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+J), [Yingze Hu](https://arxiv.org/search/cs?searchtype=author&query=Hu,+Y), [Jiele Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+J)
 
 Arxiv preprint
+
+## Awards
+
+2025-08 2nd Prize, National Level, National Undergraduate Electronics Design Contest
+
+2024-12 National Scholarship
+
+2024-11Wuhan University Excellent Student Class A Scholarship
+
+2024-07 2nd Prize, China Integrated Circuit Innovation and Entrepreneurship Competition
+
+2023-12 1st Prize, Mathematics competition of Chinese
+
+2023-11 Wuhan University Huang Zhangren Special Scholarship
+
+2023-11 Wuhan University Excellent Student Class A Scholarship
+
+2023-08 1st Prize, Provincial Level, National Undergraduate Electronics Design Contest
