@@ -28,11 +28,11 @@ Arxiv preprint
 
 ## Awards
 
-2025-08 2nd Prize, National Level, National Undergraduate Electronics Design Contest
+2025-08 2nd Prize, National Level, National Undergraduate Electronics Design Contest (Top 5%, Nationwide)
 
-2024-12 National Scholarship
+2024-12 National Scholarship (Top 0.2%, Nationwide)
 
-2024-11Wuhan University Excellent Student Class A Scholarship
+2024-11Wuhan University Excellent Student Class A Scholarship (Top 5%, University-wide)
 
 2024-07 2nd Prize, China Integrated Circuit Innovation and Entrepreneurship Competition
 
@@ -43,3 +43,4 @@ Arxiv preprint
 2023-11 Wuhan University Excellent Student Class A Scholarship
 
 2023-08 1st Prize, Provincial Level, National Undergraduate Electronics Design Contest
+
