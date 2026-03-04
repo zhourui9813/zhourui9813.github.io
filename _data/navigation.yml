@@ -3,17 +3,17 @@ main:
   - title: "about"
     url: "/#about-me"
 
-  - title: "news"
-    url: "/#-news"
+  - title: "Experience"
+    url: "/#experience"
 
   - title: "publications"
-    url: "/#-publications"
+    url: "/#publications"
 
-  - title: "educations"
-    url: "/#-educations"
+  - title: "Projects"
+    url: "/#projects"
 
-  - title: "internships"
-    url: "/#-internships"
+  - title: "Honors"
+    url: "/#honors"
 
-  - title: "blogs"
-    url: "/#-blogs"
+  - title: "Blog"
+    url: "/blog/"

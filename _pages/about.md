@@ -28,6 +28,7 @@ My research interests broadly span <span class="primary-gradient-text">embodied 
 
 Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
+<span class='anchor' id='experience'></span>
 # <i class="fas fa-graduation-cap"></i> Experience
 
 <div class="horizontal-timeline-wrap">
@@ -122,6 +123,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - *2024.12*: &nbsp;🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). <span class="accent-text">See you in Philadelphia!</span>
 - *2024.08*: &nbsp;I have joined <span class="primary-gradient-text">Microsoft</span> as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs. -->
 
+<span class='anchor' id='publications'></span>
 # <i class="fas fa-file-alt"></i> Publications 
 
 <div class='paper-box floating-card'>
@@ -197,6 +199,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <!--- Qiyang Chen, Yuezhi Wang, **Jinxiang Xie**, Guozheng Li, Chi Harold Liu. $M^3$ Trader: Multimodal Macro–Micro Inference with LLM-Guided Reinforcement Learning for Quantitative Trading. **Under Review**.-->
 
 
+<span class='anchor' id='projects'></span>
 # <i class="fas fa-diagram-project"></i> Projects
 
 <div class='paper-box floating-card'>
@@ -216,6 +219,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 
+<span class='anchor' id='honors'></span>
 # <i class="fas fa-trophy"></i> Honors & Awards
 - *2025-08*: 2nd Prize, National Level, National Undergraduate Electronics Design Contest
 - *2024-12*: National Scholarship
