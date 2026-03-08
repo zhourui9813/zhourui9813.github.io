@@ -205,7 +205,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">Open Source</div>
-    <img src='images/paper_teaser/quest3_teleop.gif' alt="Quest3 Teleop preview" width="100%">
+    <img src='images/paper_teaser/Dextelegym.gif' alt="Quest3 Teleop preview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>DexTeleGym: immersive VR bimanual teleoperation in NVIDIA Isaac Gym</h3>
