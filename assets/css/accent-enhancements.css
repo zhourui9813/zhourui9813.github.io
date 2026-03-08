@@ -384,7 +384,7 @@ body {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   margin-bottom: 2rem;
-  align-items: stretch;
+  align-items: flex-start;
   backdrop-filter: blur(10px);
 }
 
@@ -400,10 +400,9 @@ body {
   min-width: 240px;
   overflow: hidden;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   flex-shrink: 0;
+  align-self: center;
   padding: 0;
   box-sizing: border-box;
 }
@@ -421,8 +420,8 @@ body {
 
 .paper-box-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 0;
   box-shadow: 0 4px 12px rgba(1, 47, 99, 0.08);
