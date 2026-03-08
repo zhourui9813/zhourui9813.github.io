@@ -129,7 +129,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ICRA 2026</div>
-    <img src='images/paper_teaser/motiontrans.gif' alt="MotionTrans teaser" width="100%">
+    <img src='images/paper_teaser/MotionTrans.gif' alt="MotionTrans teaser" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>MotionTrans: Human VR Data Enable Motion-Level Learning for Robotic Manipulation Policies</h3>
@@ -147,14 +147,14 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ArXiv</div>
-    <img src='images/paper_teaser/twin-rl.gif' alt="TwinRL teaser" width="100%">
+    <img src='images/paper_teaser/TwinRL.gif' alt="TwinRL teaser" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>TwinRL: Digital Twin-Driven Reinforcement Learning for Real-World Robotic Manipulation</h3>
     <div class="authors">Qinwen Xu*, Jiaming Liu*, <strong>Rui Zhou*</strong>, Shaojun Shi*, Nuowei Han*, Zhuoyang Liu, Chenyang Gu, Yang Yue, Gao Huang, Wenzhao Zheng, Sirui Han, Peng Jia, Shanghang Zhang&#8224;</div>
     <div class="venue">In Submission</div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2509.17759" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
+      <a href="https://arxiv.org/abs/2602.09023" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
       <a href="https://sites.google.com/view/twinrl/twinrl" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
     </div>
   </div>
@@ -163,7 +163,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ArXiv</div>
-    <img src='images/paper_teaser/video2act.gif' alt="Video2Act teaser" width="100%">
+    <img src='images/paper_teaser/Video2Act.gif' alt="Video2Act teaser" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Video2Act: A Dual-System Video Diffusion Policy with Robotic Spatio-Motional Modeling</h3>
@@ -182,7 +182,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ArXiv</div>
-    <img src='images/paper_teaser/adugs-vins.gif' alt="ADUGS-VINS teaser" width="100%">
+    <img src='images/paper_teaser/adugs.gif' alt="ADUGS-VINS teaser" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>ADUGS-VINS: Generalized Visual-Inertial Odometry for Robust Navigation in Highly Dynamic and Complex Environments</h3>
