@@ -28,6 +28,10 @@ My research interests broadly span <span class="primary-gradient-text">embodied 
 
 Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
+<span class='anchor' id='news'></span>
+# <i class="fas fa-fire"></i> News
+- *2026.02*: &nbsp;🎉🎉 <a href="https://motiontrans.github.io/" class="link-accent">MotionTrans</a> is accepted by ICRA 2026!
+
 <span class='anchor' id='experience'></span>
 # <i class="fas fa-graduation-cap"></i> Experience
 
@@ -155,7 +159,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <div class="venue">In Submission</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2602.09023" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
-      <a href="https://sites.google.com/view/twinrl/twinrl" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://twinrl.github.io/" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://github.com/zhourui9813/TwinRL" class="btn-accent link-code"><i class="fab fa-github"></i> Code</a>
+      <a href="https://drive.google.com/drive/folders/1f58K3IYd3RjkA-oTWW17bSZk4EM06JCV" class="btn-accent link-data">
+        <i class="fab fa-google-drive"></i> Assets & Dataset
+      </a>
     </div>
   </div>
 </div>
