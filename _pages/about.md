@@ -30,6 +30,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <span class='anchor' id='news'></span>
 # <i class="fas fa-fire"></i> News
+- *2026.07*: &nbsp;🎉🎉 <a href="https://twinrl.github.io/" class="link-accent">TwinRL</a> is accepted by ACM MM 2026!
+- *2026.06*: &nbsp;🎉🎉 <a href="https://stag-vio.github.io/" class="link-accent">STAG-VIO</a> is accepted by IROS 2026!
 - *2026.02*: &nbsp;🎉🎉 <a href="https://motiontrans.github.io/" class="link-accent">MotionTrans</a> is accepted by ICRA 2026!
 
 <span class='anchor' id='experience'></span>
@@ -150,13 +152,30 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">ArXiv</div>
+    <div class="badge pulse-accent">IROS 2026</div>
+    <img src='images\paper_teaser\STAG-VIO-Video.gif' alt="STAG-VINS teaser" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>STAG-VIO: Stabilized Prompt-to-Geometry Interface for Robust Dynamic Visual--Inertial Odometry</h3>
+    <div class="authors"><strong>Rui Zhou</strong>, Jingbin Liu, Junbin Xie, Jianyu Zhang, Yingze Hu, Jiele Zhao</div>
+    <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2411.19289" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
+      <a href="https://stag-vio.github.io/" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://huggingface.co/datasets/zhourui9813/ADUGS-VINS-Dataset" class="btn-accent link-hf"><span class="hf-icon">🤗</span> Dataset</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">ACM MM 2026</div>
     <img src='images/paper_teaser/TwinRL.gif' alt="TwinRL teaser" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>TwinRL: Digital Twin-Driven Reinforcement Learning for Real-World Robotic Manipulation</h3>
     <div class="authors">Qinwen Xu*, Jiaming Liu*, <strong>Rui Zhou*</strong>, Shaojun Shi*, Nuowei Han*, Zhuoyang Liu, Chenyang Gu, Yang Yue, Gao Huang, Wenzhao Zheng, Sirui Han, Peng Jia, Shanghang Zhang&#8224;</div>
-    <div class="venue">In Submission</div>
+    <div class="venue">ACM Multimedia 2026</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2602.09023" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
       <a href="https://twinrl.github.io/" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
@@ -187,22 +206,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">ArXiv</div>
-    <img src='images/paper_teaser/adugs.gif' alt="ADUGS-VINS teaser" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>ADUGS-VINS: Generalized Visual-Inertial Odometry for Robust Navigation in Highly Dynamic and Complex Environments</h3>
-    <div class="authors"><strong>Rui Zhou</strong>, Jingbin Liu, Junbin Xie, Jianyu Zhang, Yingze Hu, Jiele Zhao</div>
-    <div class="venue">In Submission</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2411.19289" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
-      <a href="https://adugs-vins.github.io/" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
-      <a href="https://huggingface.co/datasets/zhourui9813/ADUGS-VINS-Dataset" class="btn-accent link-hf"><span class="hf-icon">🤗</span> Dataset</a>
-    </div>
-  </div>
-</div>
+
 
 <!--- Qiyang Chen, Yuezhi Wang, **Jinxiang Xie**, Guozheng Li, Chi Harold Liu. $M^3$ Trader: Multimodal Macro–Micro Inference with LLM-Guided Reinforcement Learning for Quantitative Trading. **Under Review**.-->
 

@@ -226,6 +226,10 @@ GEM
     nokogiri (1.13.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.13.3-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.3-x86-mingw32)
+      racc (~> 1.4)
     nokogiri (1.13.3-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.3-x86_64-linux)
@@ -264,16 +268,20 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2026.3)
+      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
     webrick (1.9.2)
     zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
   universal-darwin-19
+  x86-mingw32
   x86_64-linux
 
 DEPENDENCIES
@@ -281,7 +289,9 @@ DEPENDENCIES
   hawkins
   jekyll-feed
   jekyll-sitemap
+  tzinfo-data
+  wdm (~> 0.1.0)
   webrick (~> 1.8)
 
 BUNDLED WITH
-   2.2.19
+   2.3.27

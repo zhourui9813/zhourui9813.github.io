@@ -1,53 +1,100 @@
-
-
-
 import argparse
-from moviepy.editor import VideoFileClip
-from moviepy.video.fx import resize
+import inspect
+from pathlib import Path
+
+try:
+    from moviepy import VideoFileClip
+except ImportError:
+    from moviepy.editor import VideoFileClip
+
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+
+
+def resize_clip(video, width, height):
+    size = (width, height)
+
+    if hasattr(video, "resized"):
+        return video.resized(new_size=size)
+
+    from moviepy.video.fx import resize
+
+    return resize.resize(video, newsize=size)
+
+
+def set_clip_fps(video, fps):
+    if hasattr(video, "with_fps"):
+        return video.with_fps(fps)
+
+    return video.set_fps(fps)
+
+
+def write_gif(clip, output_path, fps, quality):
+    kwargs = {
+        "fps": fps,
+        "program": "ffmpeg",
+        "opt": "nq",
+        "fuzz": quality,
+    }
+    supported_kwargs = inspect.signature(clip.write_gif).parameters
+    kwargs = {key: value for key, value in kwargs.items() if key in supported_kwargs}
+    clip.write_gif(str(output_path), **kwargs)
+
 
 def convert_mp4_to_gif(input_file, output_file, width, height, fps, quality):
-    try:
-        # 读取视频文件
-        video = VideoFileClip(input_file)
+    input_path = Path(input_file)
+    output_path = Path(output_file)
 
-        # 如果宽度或高度为 None，保持比例进行计算
+    with VideoFileClip(str(input_path)) as video:
         if width is None and height is not None:
-            width = int(video.w * (height / video.h))  # 按照目标高度计算宽度
+            width = int(video.w * (height / video.h))
         elif height is None and width is not None:
-            height = int(video.h * (width / video.w))  # 按照目标宽度计算高度
+            height = int(video.h * (width / video.w))
+        elif width is None and height is None:
+            width, height = video.w, video.h
 
-        # 调整视频大小，保持比例
-        video_resized = resize.resize(video, newsize=(width, height))
+        clip = resize_clip(video, width, height)
+        clip = set_clip_fps(clip, fps)
+        write_gif(clip, output_path, fps, quality)
 
-        # 设置帧率
-        video_resized = video_resized.set_fps(fps)
+    print(f"Converted successfully: {output_path}")
 
-        # 创建 GIF 文件
-        video_resized.write_gif(output_file, fps=fps, program='ffmpeg', opt='nq', fuzz=quality)
-
-        print(f"转换成功！GIF 文件保存为 {output_file}")
-
-    except Exception as e:
-        print(f"发生错误: {e}")
 
 def main():
-    parser = argparse.ArgumentParser(description="将 MP4 转换为 GIF")
-    
-    # 定义命令行参数及默认值
-    parser.add_argument("--input_file", default="/media/zhourui/zhourui.github.io/images/paper_teaser/output.mp4", help="输入的 MP4 文件路径")
-    parser.add_argument("--output_file", default="/media/zhourui/zhourui.github.io/images/paper_teaser/quest3_teleop.gif", help="输出的 GIF 文件路径")
-    parser.add_argument("width", type=int, default=480, nargs="?", help="GIF 的目标宽度，默认值是 320")
-    parser.add_argument("height", type=int, default=None, nargs="?", help="GIF 的目标高度，默认值是 240")
-    parser.add_argument("fps", type=int, default=10, nargs="?", help="GIF 的帧率，默认值是 15")
-    
-    # 压缩等级参数，帮助中详细说明范围
-    parser.add_argument("quality", type=int, default=0, nargs="?", help="压缩等级，数值范围从 1 到 100，数值越小文件越小，质量越差；默认值是 20")
-    
-    # 解析参数
-    args = parser.parse_args()
+    parser = argparse.ArgumentParser(description="Convert MP4 to GIF.")
+    parser.add_argument(
+        "--input_file",
+        default=SCRIPT_DIR / "STAG-VIO-Video.mp4",
+        type=Path,
+        help="Input MP4 path.",
+    )
+    parser.add_argument(
+        "--output_file",
+        default=SCRIPT_DIR / "STAG-VIO-Video.gif",
+        type=Path,
+        help="Output GIF path.",
+    )
+    parser.add_argument("width", type=int, default=480, nargs="?", help="Target GIF width.")
+    parser.add_argument("height", type=int, default=None, nargs="?", help="Target GIF height.")
+    parser.add_argument("fps", type=int, default=20, nargs="?", help="Target GIF FPS.")
+    parser.add_argument(
+        "quality",
+        type=int,
+        default=0,
+        nargs="?",
+        help="GIF optimization fuzz value.",
+    )
 
-    # 调用转换函数
-    convert_mp4_to_gif(args.input_file, args.output_file, args.width, args.height, args.fps, args.quality)
+    args = parser.parse_args()
+    convert_mp4_to_gif(
+        args.input_file,
+        args.output_file,
+        args.width,
+        args.height,
+        args.fps,
+        args.quality,
+    )
+
 
 if __name__ == "__main__":
     main()
