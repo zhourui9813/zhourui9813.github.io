@@ -19,11 +19,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a final-year undergraduate student in the School of  Electronic Information at <i class="fas fa-university"></i> **Wuhan University**. Previously, I have worked as a research intern at the Institute for Interdisciplinary Information Sciences (IIIS), <i class="fas fa-university"></i> **Tsinghua University**, working with <a href="https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html" class="link-accent">Prof. Yang Gao</a>.
-Currently, I am a research intern at the <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a>, <i class="fas fa-university"></i> **Peking University**, School of Computer Science and the Beijing Academy of Artificial Intelligence (BAAI), working with <a href="https://cs.pku.edu.cn/info/1089/1747.html" class="link-accent">Prof. Shanghang Zhang</a>. 
+I am an incoming Ph.D. student at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (HKUST)**, starting in Fall 2026, where I will be advised by <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yike-guo-yikeguo" class="link-accent">Prof. Yike Guo</a> and <a href="https://siruihan.com/" class="link-accent">Prof. Sirui Han</a>.
+I received my B.Eng. from <i class="fas fa-university"></i> **School of Electronic Information, Wuhan University**, in 2026.
+
+Currently, I am a research intern at the <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a>, <i class="fas fa-university"></i> **Peking University** and the <i class="fas fa-flask"></i> **Beijing Academy of Artificial Intelligence (BAAI)**, working with <a href="https://cs.pku.edu.cn/info/1089/1747.html" class="link-accent">Prof. Shanghang Zhang</a>. Earlier, I was a research intern at <i class="fas fa-university"></i> **Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University**, working with <a href="https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html" class="link-accent">Prof. Yang Gao</a>.
 
 <div class="quote-accent">
-My research interests broadly span <span class="primary-gradient-text">embodied intelligence, robotics, and world models</span>.
+My research focuses on <span class="primary-gradient-text">embodied intelligence and robotics</span>. I am particularly interested in how <span class="primary-gradient-text">egocentric human data</span> can teach robots <span class="primary-gradient-text">dexterous manipulation</span>, and in building the capture systems and policies that close the human-to-robot gap.
 </div>
 
 Feel free to reach out if you'd like to discuss research or explore potential collaboration!
