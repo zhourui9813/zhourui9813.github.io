@@ -95,6 +95,13 @@
   }
 }
 
+.author__avatar img {
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+  background-color: #fff;
+}
+
 .author__content {
   display: flex;
   flex-direction: column;

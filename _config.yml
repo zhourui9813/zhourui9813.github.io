@@ -28,9 +28,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Rui Zhou"
-  avatar           : "images/photo.png"
-  bio              : "Wuhan University"
-  location         : "Wuhan, China"
+  avatar           : "images/IMG_1015.JPG"
+  bio              : >
+    Incoming Ph.D. @ HKUST<br>
+    B.Eng. @ Wuhan University<br>
+    Embodied AI
+  location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&authuser=1&user=YRM2Q84AAAAJ"

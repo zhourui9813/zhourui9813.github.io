@@ -141,7 +141,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
   <div class='paper-box-text'>
     <h3>MotionTrans: Human VR Data Enable Motion-Level Learning for Robotic Manipulation Policies</h3>
-    <div class="authors">Chengbo Yuan, <strong>Rui Zhou</strong>, Mengzhen Liu, Yingdong Hu, Shengjie Wang, Li Yi, Chuan Wen, Shanghang Zhang, Yang Gao</div>
+    <div class="authors">Chengbo Yuan, <strong>Rui Zhou*</strong>, Mengzhen Liu*, Yingdong Hu, Shengjie Wang, Li Yi, Chuan Wen, Shanghang Zhang, Yang Gao&#8224;</div>
     <div class="venue">IEEE International Conference on Robotics & Automation (ICRA), 2026</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2509.17759" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
@@ -159,7 +159,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
   <div class='paper-box-text'>
     <h3>STAG-VIO: Stabilized Prompt-to-Geometry Interface for Robust Dynamic Visual--Inertial Odometry</h3>
-    <div class="authors"><strong>Rui Zhou</strong>, Jingbin Liu, Junbin Xie, Jianyu Zhang, Yingze Hu, Jiele Zhao</div>
+    <div class="authors"><strong>Rui Zhou</strong>, Jingbin Liu&#8224;, Junbin Xie, Jianyu Zhang, Yingze Hu, Jiele Zhao</div>
     <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2411.19289" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
@@ -196,7 +196,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
   <div class='paper-box-text'>
     <h3>Video2Act: A Dual-System Video Diffusion Policy with Robotic Spatio-Motional Modeling</h3>
-    <div class="authors">Yueru Jia, Jiaming Liu, Shengbang Liu, <strong>Rui Zhou</strong>, Wanhe Yu, Yuyang Yan, Xiaowei Chi, Yandong Guo, Boxin Shi, Shanghang Zhang</div>
+    <div class="authors">Yueru Jia*, Jiaming Liu*, Shengbang Liu*, <strong>Rui Zhou</strong>, Wanhe Yu, Yuyang Yan, Xiaowei Chi, Yandong Guo, Boxin Shi, Shanghang Zhang&#8224;</div>
     <div class="venue">In Submission</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2512.03044" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
