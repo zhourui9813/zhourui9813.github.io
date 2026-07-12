@@ -42,7 +42,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class="horizontal-timeline-wrap">
   <div class="horizontal-timeline">
     <div class="timeline-item floating-card">
-      <div class="timeline-date">2022.9 - Present</div>
+      <div class="timeline-date">2022.9 - 2026.6</div>
       <div class="timeline-dot"></div>
       <div class="timeline-card">
         <div class="timeline-top">
@@ -155,7 +155,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">IROS 2026</div>
-    <img src='images\paper_teaser\STAG-VIO-Video.gif' alt="STAG-VINS teaser" width="100%">
+    <img src='images/paper_teaser/STAG-VIO-Video.gif' alt="STAG-VINS teaser" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>STAG-VIO: Stabilized Prompt-to-Geometry Interface for Robust Dynamic Visual--Inertial Odometry</h3>
