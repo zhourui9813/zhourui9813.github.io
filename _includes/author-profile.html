@@ -86,7 +86,12 @@
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
       {% endif %}
       {% if author.youtube %}
-        <li><a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        {% assign youtube_url = author.youtube %}
+        {% unless youtube_url contains '://' %}
+          {% assign youtube_handle = youtube_url | remove_first: '@' %}
+          {% assign youtube_url = 'https://www.youtube.com/@' | append: youtube_handle %}
+        {% endunless %}
+        <li><a href="{{ youtube_url }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
       {% endif %}
       {% if author.soundcloud %}
         <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i> Soundcloud</a></li>
@@ -181,7 +186,12 @@
         <a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.youtube %}
-        <a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a>
+        {% assign youtube_url = author.youtube %}
+        {% unless youtube_url contains '://' %}
+          {% assign youtube_handle = youtube_url | remove_first: '@' %}
+          {% assign youtube_url = 'https://www.youtube.com/@' | append: youtube_handle %}
+        {% endunless %}
+        <a href="{{ youtube_url }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.soundcloud %}
         <a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i></a>

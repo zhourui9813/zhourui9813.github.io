@@ -235,6 +235,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <span class='anchor' id='honors'></span>
 # <i class="fas fa-trophy"></i> Honors & Awards
+- *2026-06*: Outstanding Undergraduate Thesis, Wuhan University
+- *2026-06*: Outstanding Undergraduate Graduate, Class of 2026
 - *2025-08*: 2nd Prize, National Level, National Undergraduate Electronics Design Contest
 - *2024-12*: National Scholarship
 - *2024-11*: Wuhan University Excellent Student Class A Scholarship
