@@ -30,7 +30,7 @@ author:
   name             : "Rui Zhou"
   avatar           : "images/IMG_1015.JPG"
   bio              : >
-    Incoming Ph.D. @ HKUST<br>
+    First-year Ph.D. @ HKUST<br>
     B.Eng. @ Wuhan University<br>
     Embodied AI
   location         : "Beijing, China"
@@ -38,6 +38,7 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YRM2Q84AAAAJ"
   email            : "zhourui9813@gmail.com"
+  cv               : "/assets/CV.pdf"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

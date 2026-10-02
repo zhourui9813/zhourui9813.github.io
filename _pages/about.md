@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an incoming Ph.D. student at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (HKUST)**, starting in Fall 2026, where I will be advised by <a href="https://hkustprovost.hkust.edu.hk/" class="link-accent">Prof. Yike Guo</a> and <a href="https://siruihan2024.github.io/" class="link-accent">Prof. Sirui Han</a>.
+I am a first-year Ph.D. student at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (HKUST)**, advised by <a href="https://siruihan2024.github.io/" class="link-accent">Prof. Sirui Han</a> and <a href="https://hkustprovost.hkust.edu.hk/" class="link-accent">Prof. Yike Guo</a>.
 I received my B.Eng. from <i class="fas fa-university"></i> **School of Electronic Information, Wuhan University**, in 2026.
 
 Currently, I am a research intern at the <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a>, <i class="fas fa-university"></i> **Peking University** and the <i class="fas fa-flask"></i> **Beijing Academy of Artificial Intelligence (BAAI)**, working with <a href="https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=zh-CN&authuser=1" class="link-accent">Prof. Shanghang Zhang</a>. Earlier, I was a research intern at <i class="fas fa-university"></i> **Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University**, working with <a href="https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html" class="link-accent">Prof. Yang Gao</a>.
@@ -32,6 +32,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <span class='anchor' id='news'></span>
 # <i class="fas fa-fire"></i> News
+- *2026.09*: &nbsp;🎉🎉 <a href="https://dexroam.github.io/" class="link-accent">DexRoam</a> is accepted by CoRL 2026!
 - *2026.07*: &nbsp;🎉🎉 <a href="https://twinrl.github.io/" class="link-accent">TwinRL</a> is accepted by ACM MM 2026!
 - *2026.06*: &nbsp;🎉🎉 <a href="https://stag-vio.github.io/" class="link-accent">STAG-VIO</a> is accepted by IROS 2026!
 - *2026.02*: &nbsp;🎉🎉 <a href="https://motiontrans.github.io/" class="link-accent">MotionTrans</a> is accepted by ICRA 2026!
@@ -124,6 +125,27 @@ Feel free to reach out if you'd like to discuss research or explore potential co
         </div>
       </div>
     </div>
+
+    <div class="timeline-item floating-card">
+      <div class="timeline-date">2026.9 - Present</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-top">
+          <div class="timeline-head">
+            <div class="timeline-logo-row">
+              <img src="/images/logo/HKUST_LOGO.png" alt="HKUST logo" class="timeline-logo">
+            </div>
+            <div class="timeline-head-text">
+              <h3><i class="fas fa-university"></i> The Hong Kong University of Science and Technology (HKUST)</h3>
+              <div class="timeline-role">Ph.D. Student</div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-bottom">
+          <p>Ph.D. Student advised by <a href="https://siruihan2024.github.io/" class="link-accent">Prof. Sirui Han</a> and <a href="https://hkustprovost.hkust.edu.hk/" class="link-accent">Prof. Yike Guo</a>.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -133,6 +155,25 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <span class='anchor' id='publications'></span>
 # <i class="fas fa-file-alt"></i> Publications 
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">CoRL 2026</div>
+    <img src='images/paper_teaser/dexroam_teaser.gif' alt="DexRoam teaser" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations</h3>
+    <div class="authors"><strong>Rui Zhou*</strong>, Yibo Yuan*, Junkai Zhao*&#8224;, Fangyuan Zhao, Xiaoguang Zhao, Shanghang Zhang&#9993;, Sirui Han&#9993;</div>
+    <div class="venue">Conference on Robot Learning (CoRL), 2026</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2609.35761" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
+      <a href="https://dexroam.github.io/" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://github.com/zhourui9813/DexRoam" class="btn-accent link-code"><i class="fab fa-github"></i> Data &amp; Alignment Code</a>
+      <a href="https://github.com/zhourui9813/DexRoam-Policy-Training" class="btn-accent link-code"><i class="fab fa-github"></i> Policy Training Code</a>
+      <a href="https://huggingface.co/datasets/zhourui9813/DexRoam_Realworld_Data" class="btn-accent link-hf"><span class="hf-icon">🤗</span> Dataset</a>
+    </div>
+  </div>
+</div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
@@ -183,7 +224,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
       <a href="https://twinrl.github.io/" class="btn-accent link-project"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://github.com/zhourui9813/TwinRL" class="btn-accent link-code"><i class="fab fa-github"></i> Code</a>
       <a href="https://drive.google.com/drive/folders/1f58K3IYd3RjkA-oTWW17bSZk4EM06JCV" class="btn-accent link-data">
-        <i class="fab fa-google-drive"></i> Assets & Dataset
+        <i class="fab fa-google-drive"></i> Assets &amp; Dataset
       </a>
     </div>
   </div>

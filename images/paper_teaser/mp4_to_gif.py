@@ -64,13 +64,13 @@ def main():
     parser = argparse.ArgumentParser(description="Convert MP4 to GIF.")
     parser.add_argument(
         "--input_file",
-        default=SCRIPT_DIR / "STAG-VIO-Video.mp4",
+        default=SCRIPT_DIR / "dexroam_teaser.mp4",
         type=Path,
         help="Input MP4 path.",
     )
     parser.add_argument(
         "--output_file",
-        default=SCRIPT_DIR / "STAG-VIO-Video.gif",
+        default=SCRIPT_DIR / "dexroam_teaser.gif",
         type=Path,
         help="Output GIF path.",
     )
