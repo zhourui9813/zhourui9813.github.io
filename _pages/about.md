@@ -22,7 +22,7 @@ redirect_from:
 I am a first-year Ph.D. student at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (HKUST)**, advised by <a href="https://siruihan2024.github.io/" class="link-accent">Prof. Sirui Han</a> and <a href="https://hkustprovost.hkust.edu.hk/" class="link-accent">Prof. Yike Guo</a>.
 I received my B.Eng. from <i class="fas fa-university"></i> **School of Electronic Information, Wuhan University**, in 2026.
 
-Currently, I am a research intern at the <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a>, <i class="fas fa-university"></i> **Peking University** and the <i class="fas fa-flask"></i> **Beijing Academy of Artificial Intelligence (BAAI)**, working with <a href="https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=zh-CN&authuser=1" class="link-accent">Prof. Shanghang Zhang</a>. Earlier, I was a research intern at <i class="fas fa-university"></i> **Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University**, working with <a href="https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html" class="link-accent">Prof. Yang Gao</a>.
+Currently, I am a research intern at the <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a>, <i class="fas fa-university"></i> **Peking University** and the <i class="fas fa-flask"></i> **Beijing Academy of Artificial Intelligence (BAAI)**, working with <a href="https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=zh-CN&authuser=1" class="link-accent">Prof. Shanghang Zhang</a>. Earlier, I was a research intern at <i class="fas fa-university"></i> **Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University**, working with <a href="https://yang-gao.weebly.com/" class="link-accent">Prof. Yang Gao</a>.
 
 <div class="quote-accent">
 My research focuses on <span class="primary-gradient-text">embodied intelligence and robotics</span>. I am particularly interested in how <span class="primary-gradient-text">egocentric human data</span> can teach robots <span class="primary-gradient-text">dexterous manipulation</span>, and in building the capture systems and policies that close the human-to-robot gap.
@@ -73,19 +73,19 @@ Feel free to reach out if you'd like to discuss research or explore potential co
               <img src="/images/logo/THU_LOGO.png" alt="Tsinghua University logo" class="timeline-logo">
             </div>
             <div class="timeline-head-text">
-              <h3><i class="fas fa-microscope"></i> Institute for Interdisciplinary Information Sciences, Tsinghua University</h3>
+              <h3><i class="fas fa-microscope"></i> EVAR Lab, IIIS, Tsinghua University</h3>
               <div class="timeline-role">Research Intern</div>
             </div>
           </div>
         </div>
         <div class="timeline-bottom">
-          <p>Research Intern at <a href="https://iiis.tsinghua.edu.cn/kxyj/ktzjs/sjyjqrsys_VAR_.htm" class="link-accent">EVAR Lab</a> in THU IIIS, working with <a href="https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html" class="link-accent">Prof. Yang Gao</a>.</p>
+          <p>Research Intern at <a href="https://iiis.tsinghua.edu.cn/kxyj/ktzjs/sjyjqrsys_VAR_.htm" class="link-accent">EVAR Lab</a> in THU IIIS, supervised by <a href="https://people.iiis.tsinghua.edu.cn/~gaoyang/yang-gao.weebly.com/index.html" class="link-accent">Prof. Yang Gao</a>.</p>
         </div>
       </div>
     </div>
 
     <div class="timeline-item floating-card">
-      <div class="timeline-date">2025.8 - Present</div>
+      <div class="timeline-date">2025.8 - 2026.3</div>
       <div class="timeline-dot"></div>
       <div class="timeline-card">
         <div class="timeline-top">
@@ -94,19 +94,19 @@ Feel free to reach out if you'd like to discuss research or explore potential co
               <img src="/images/logo/PKU_LOGO.png" alt="Peking University logo" class="timeline-logo">
             </div>
             <div class="timeline-head-text">
-              <h3><i class="fas fa-microscope"></i> School of Computer Science, Peking University</h3>
+              <h3><i class="fas fa-microscope"></i> HMI Lab, School of Computer Science, Peking University</h3>
               <div class="timeline-role">Research Intern</div>
             </div>
           </div>
         </div>
         <div class="timeline-bottom">
-          <p>Research Intern at <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a> in PKU, working with <a href="https://cs.pku.edu.cn/info/1089/1747.html" class="link-accent">Prof. Shanghang Zhang</a>.</p>
+          <p>Research Intern at <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a> in PKU,  supervised by <a href="https://cs.pku.edu.cn/info/1089/1747.html" class="link-accent">Prof. Shanghang Zhang</a>.</p>
         </div>
       </div>
     </div>
 
     <div class="timeline-item floating-card">
-      <div class="timeline-date">2025.9 - Present</div>
+      <div class="timeline-date">2025.9 - 2026.9</div>
       <div class="timeline-dot"></div>
       <div class="timeline-card">
         <div class="timeline-top">
@@ -163,7 +163,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
   <div class='paper-box-text'>
     <h3>DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations</h3>
-    <div class="authors"><strong>Rui Zhou*</strong>, Yibo Yuan*, Junkai Zhao*&#8224;, Fangyuan Zhao, Xiaoguang Zhao, Shanghang Zhang&#9993;, Sirui Han&#9993;</div>
+    <div class="authors"><strong>Rui Zhou*</strong>, Yibo Yuan*, Junkai Zhao*;, Fangyuan Zhao, Xiaoguang Zhao, Shanghang Zhang&#8224;, Sirui Han&#8224;</div>
     <div class="venue">Conference on Robot Learning (CoRL), 2026</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2609.35761" class="btn-accent link-arxiv"><i class="ai ai-arxiv arxiv-ai-icon"></i> ArXiv</a>
