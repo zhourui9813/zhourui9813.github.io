@@ -19,14 +19,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. student at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (HKUST)**, advised by <a href="https://siruihan2024.github.io/" class="link-accent">Prof. Sirui Han</a> and <a href="https://hkustprovost.hkust.edu.hk/" class="link-accent">Prof. Yike Guo</a>.
-I received my B.Eng. from <i class="fas fa-university"></i> **School of Electronic Information, Wuhan University**, in 2026.
+I am a first-year Ph.D. student in Artificial Intelligence at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (HKUST)**, advised by <a href="https://siruihan2024.github.io/" class="link-accent">Prof. Sirui Han</a> and <a href="https://hkustprovost.hkust.edu.hk/" class="link-accent">Prof. Yike Guo</a>. Previously, I was a research intern at the <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a>, <i class="fas fa-university"></i> **Peking University**, and the <i class="fas fa-flask"></i> **Beijing Academy of Artificial Intelligence (BAAI)**, supervised by <a href="https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=zh-CN&authuser=1" class="link-accent">Prof. Shanghang Zhang</a>. I also interned at the **EVAR Lab**, <i class="fas fa-university"></i> **IIIS, Tsinghua University**, under the supervision of <a href="https://yang-gao.weebly.com/" class="link-accent">Prof. Yang Gao</a>. I received my B.Eng. degree from the **Electronic Information School**, <i class="fas fa-university"></i> **Wuhan University**.
 
-Currently, I am a research intern at the <a href="https://pku-hmi-lab.github.io/HMI-Web/" class="link-accent">HMI Lab</a>, <i class="fas fa-university"></i> **Peking University** and the <i class="fas fa-flask"></i> **Beijing Academy of Artificial Intelligence (BAAI)**, working with <a href="https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=zh-CN&authuser=1" class="link-accent">Prof. Shanghang Zhang</a>. Earlier, I was a research intern at <i class="fas fa-university"></i> **Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University**, working with <a href="https://yang-gao.weebly.com/" class="link-accent">Prof. Yang Gao</a>.
-
-<div class="quote-accent">
-My research focuses on <span class="primary-gradient-text">embodied intelligence and robotics</span>. I am particularly interested in how <span class="primary-gradient-text">egocentric human data</span> can teach robots <span class="primary-gradient-text">dexterous manipulation</span>, and in building the capture systems and policies that close the human-to-robot gap.
-</div>
+My research focuses on embodied intelligence and robot learning, with an emphasis on dexterous and mobile manipulation. I am particularly interested in leveraging human demonstrations to enable scalable and generalizable robot skill learning.
 
 Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
